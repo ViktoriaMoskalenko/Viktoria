@@ -7,6 +7,7 @@ subplot(312), plot(w/(2*pi)*fs,unwrap(phase)),grid on
 nuli = roots(b)
 figure(2)
 zplane(nuli)
+filt(b,a)
 % k(z)=1+0.618*z^-1+1*z^-2
 
 
